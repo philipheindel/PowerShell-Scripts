@@ -1,14 +1,14 @@
 Add-Type -assembly System.Windows.Forms
 
 Function New-Component {
-Param(
-    [String] $type,
-    [String] $text,
-    [int] $x,
-    [int] $y,
-    [int] $W,
-    [int] $h,
-    [System.Windows.Forms.Form] $parent
+    Param(
+        [String] $type,
+        [String] $text,
+        [int] $x,
+        [int] $y,
+        [int] $W,
+        [int] $h,
+        [System.Windows.Forms.Form] $parent
     )
     switch ($type.ToLower()) {
         ("button") {

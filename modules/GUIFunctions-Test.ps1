@@ -1,6 +1,6 @@
 Add-Type -assembly System.Windows.Forms
 
-Import-Module -Name C:\Users\Philip\Desktop\ps\GUIFunctions.psm1
+Import-Module -Name C:\Users\Philip\git\PowerShell-Scripts\modules\GUIFunctions.psm1
 
 $mainForm = New-Object System.Windows.Forms.Form
 
