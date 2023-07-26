@@ -1,4 +1,5 @@
 Add-Type -assembly System.Windows.Forms
+[System.Windows.Forms.Application]::EnableVisualStyles()
 
 Import-Module -Name C:\Users\Philip\git\PowerShell-Scripts\modules\GUIFunctions.psm1
 
